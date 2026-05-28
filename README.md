@@ -20,7 +20,7 @@ The **MongoDB & GitLab Dual-Agent Assistant** is engineered to eliminate manual 
 ## 📋 Project Structure
 
 ```text
-├── .env                  # Local environment configurations (Tokens & IDs)
+├── .gitignore            # Tells Git to ignore private credential files (.env)
 ├── LICENSE               # MIT Open Source License
 ├── README.md             # Project documentation
 ├── gitlabService.js      # Core GitLab API integration layer
